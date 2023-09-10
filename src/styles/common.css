@@ -1,0 +1,79 @@
+:root {
+    --graphite: #2F3132;
+    --white: #fff;
+    --brown: #494949;
+    --gray: #E0E1E2;
+    --light-gray: #EDEDED;
+    --dark-gray: #C4C4C4;
+
+
+
+    /* Mobile-navigation */
+    --background-mob: var(--graphite);
+    --text-mob: var(--white);
+
+
+    --nav-text: var(--white);
+    --textColor: var(--graphite);
+    --border-color: var(--brown);
+
+    /* promo */
+    --promo-header: var(--gray);
+
+    /* Wirelessly */
+    --background-wirelessly: var(--light-gray);
+
+    /* Table */
+
+    --background-table: var(--white);
+    /* Mobile Device */
+    --background: var(--light-gray);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--textColor);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1180px;
+}
+
+.title {
+    color: var(--graphite);
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+@media (max-width: 760px) {
+    body {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
+
+/* @media (max-width: 374px) {
+    body {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+} */

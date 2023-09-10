@@ -1,0 +1,138 @@
+.wirelessly {
+  background-color: var(--background-wirelessly);
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  &__icon {
+    width: 21px;
+    margin-top: 80px;
+    margin-bottom: 35px;
+  }
+
+  &__title {
+    margin-bottom: 35px;
+  }
+
+  &__desc {
+    width: 761px;
+    text-align: center;
+  }
+
+  &__text {
+    display: flex;
+   margin-left: 65px;
+   margin-bottom: 135px;
+   
+
+  }
+  &__text .text-1,
+  .text-2 {
+    color: var(--dark-gray);
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  &__text .text-1 {
+    font-size: 300px;
+    width: 348px;
+  }
+  &__text .text-2 {
+    font-size: 96px;
+    width: 260px;
+    margin-top: 30px;
+  }
+
+  &__images {
+    display: flex;
+    position: absolute;
+    top: 432px;
+    
+  
+  }
+  &__img-front {
+    width: 533px;
+    height: 286px;
+    position: relative;
+    left: -50px;
+  }
+  &__img-left {
+    width: 667px;
+    height: 307px;
+  }
+}
+
+
+@media(max-width: 1240px){
+    .wirelessly{
+        &__icon {
+            margin-bottom: 39px;
+        }
+        &__title {
+            font-size: 40px;
+            margin-bottom: 39px;
+        }
+        &__desc {
+            font-size: 24px;
+            margin-bottom: 76px;
+        }
+        &__text {
+            margin: 0;
+        }
+        &__text .text-1 {
+            font-size: 150px;
+            width: 100%;
+        }
+        &__text .text-2 {
+            font-size: 150px;
+            margin: 0;
+            width: 100%;
+        }
+        &__img-front {
+            display: none;
+        }
+        &__images {
+            position: unset;
+        }
+        .wirelessly__img-front {
+            position: unset;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .wirelessly{
+        &__icon {
+            margin-top: 42px;
+            margin-bottom: 27px;
+        }
+        &__title {
+            // font-size: 20px;
+            margin-bottom: 39px;
+        }
+        &__desc {
+            margin-bottom: 31px;
+            width: 308px;
+            font-size: 14px;
+        }
+
+        &__text {
+            column-gap: 20px;
+        }
+
+        &__text .text-1, &__text .text-2 {
+            font-size: 60px;
+            margin-bottom: 25px;
+        }
+
+        &__img-left {
+            width: 375px;
+            height: unset;
+        }
+    }
+}
