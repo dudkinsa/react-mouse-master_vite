@@ -162,7 +162,10 @@
     }
     &__img-big {
       width: 100%;
-      position: unset;
+   
+      top: 12px;
+      left: 0;
+      right: 0;
     }
   }
   .step:not(:last-child) {
