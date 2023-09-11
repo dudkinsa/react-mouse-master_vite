@@ -9,8 +9,8 @@ import Control from './components/Control/Control';
 function App() {
 
   return (
-    <>
-    <div>
+    
+    <div className='App'>
     <Router>
       <Header />
       <Routes>
@@ -28,7 +28,7 @@ function App() {
       <Control />
     </Router>
   </div>
-    </>
+  
   );
 }
 

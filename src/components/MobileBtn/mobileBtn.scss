@@ -67,7 +67,8 @@
   }
 }
 
-@media (max-width: 412px){
+
+@media (max-width: 760px){
   .mobile-nav-button{
     &__icon {
       width: 30px;
@@ -88,22 +89,3 @@
   }
 }
 
-// @media (max-width: 375px) {
-//   .mobile-nav-button {
- 
-
-//     &__logo{
-//       align-items: unset;
-    
-//     }
-//     &__icon {
-//       width: 30px;
-//       height:4px;
-//     }
-//     &__icon::after,
-//     &__icon::before {
-//       width: 30px;
-//       height: 4px;
-//     }
-//   }
-// }

@@ -162,10 +162,8 @@
     }
     &__img-big {
       width: 100%;
-   
-      top: 12px;
-      left: 0;
-      right: 0;
+      position: unset;
+      margin-top: 10px;
     }
   }
   .step:not(:last-child) {
@@ -179,7 +177,6 @@
     width: 224px;
   }
   .step:nth-child(5) {
-    width: 140px;
+    width: 145px;
   }
-
 }
