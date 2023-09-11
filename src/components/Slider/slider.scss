@@ -78,4 +78,10 @@
   width: 35px;
 }
 
-
+@media (max-width: 760px) {
+  .swiper {
+    &__pagination {
+      column-gap: 18px;
+    }
+  }
+}
