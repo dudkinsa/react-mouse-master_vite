@@ -1,7 +1,13 @@
 import React from 'react';
 import './control.scss';
-import control from '../../img/images/section-5/control_svg.svg'
-
+import control from '../../img/images/section-5/control_svg.svg';
+import ps from '../../img/images/section-5/brend-icons/ps-svg.svg';
+import pr from '../../img/images/section-5/brend-icons/pr-svg.svg';
+import browsers from '../../img/images/section-5/brend-icons/browsers-svg.svg';
+import word from '../../img/images/section-5/brend-icons/word-svg.svg';
+import powerpoint from '../../img/images/section-5/brend-icons/powerpoint-svg.svg';
+import exel from '../../img/images/section-5/brend-icons/exel-svg.svg';
+import video from '../../img/images/section-5/brend-icons/exel-svg.svg';
 
 const Control = () => {
   return (
@@ -18,7 +24,33 @@ const Control = () => {
               практически под любое используемое приложение.
             </p>
           </div>
-          <img src={control} alt="" />
+          <picture className="control__picture">
+            <source />
+              <img src={control} alt="" />
+          
+          </picture>
+          <div className="control__apps">
+            <div className="apps">
+              <div className="apps__icons">
+                <ul className="apps__icons-list">
+                  <li className="apps__icon-item"><img className="icon-img" src={ps} alt="Icon Ps" /></li>
+                  <li className="apps__icon-item"><img className="icon-img" src={pr} alt="Icon Pr" /></li>
+                  <li className="apps__icon-item"><img className="icon-img" src={browsers} alt="Icon Browsers" /></li>
+                  <li className="apps__icon-item"><img className="icon-img" src={word} alt="Icon" /></li>
+                  <li className="apps__icon-item"><img className="icon-img" src={powerpoint} alt="Icon" /></li>
+                  <li className="apps__icon-item"><img className="icon-img" src={exel} alt="Icon" /></li>
+                  <li className="apps__icon-item"><img className="icon-img" src={video} alt="Icon" /></li>
+                </ul>
+              </div>
+              <div className="apps__info-text">
+                <p>
+                  Начните работать продуктивнее с момента покупки — устройство
+                  предварительно оптимизировано под популярные приложения на
+                  Windows и Mac.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
