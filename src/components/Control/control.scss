@@ -66,3 +66,12 @@ padding-top: 52px;
 }
 .icon-img {
 }
+
+
+@media (max-width: 760px) {
+    .control {
+        &__info-text{
+            width: 308px;
+        }
+    }
+}
