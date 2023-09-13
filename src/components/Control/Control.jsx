@@ -7,7 +7,7 @@ import browsers from '../../img/images/section-5/brend-icons/browsers-svg.svg';
 import word from '../../img/images/section-5/brend-icons/word-svg.svg';
 import powerpoint from '../../img/images/section-5/brend-icons/powerpoint-svg.svg';
 import exel from '../../img/images/section-5/brend-icons/exel-svg.svg';
-import video from '../../img/images/section-5/brend-icons/exel-svg.svg';
+import video from '../../img/images/section-5/brend-icons/video-svg.svg';
 
 const Control = () => {
   return (

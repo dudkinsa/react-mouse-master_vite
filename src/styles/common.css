@@ -28,6 +28,9 @@
     --background-table: var(--white);
     /* Mobile Device */
     --background: var(--light-gray);
+    /* Control */
+    --background-control: var(--light-gray);
+    --background-apps: var(--dark-gray);
 }
 
 body {
@@ -36,7 +39,6 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
-
 
 }
 

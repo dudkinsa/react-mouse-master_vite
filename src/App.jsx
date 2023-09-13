@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Header />
+        <Promo />
         <Routes>
           <Route path="/" element={<Promo />} />
           <Route path="/2" element={2} />
