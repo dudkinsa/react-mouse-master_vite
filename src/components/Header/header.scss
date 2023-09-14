@@ -1,5 +1,7 @@
 .header {
   background-color: var(--graphite);
+  position: relative;
+  z-index: 2;
 
   &__row {
     display: flex;

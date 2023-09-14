@@ -72,12 +72,6 @@ body {
     }
 }
 
-/* @media (max-width: 374px) {
-    body {
-        font-size: 14px;
-    }
-
-    .title {
-        font-size: 20px;
-    }
-} */
+.no-scroll{
+    overflow: hidden;
+  }

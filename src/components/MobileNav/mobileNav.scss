@@ -11,6 +11,7 @@
 @media (max-width: 1165px) {
   .mobile-nav {
     max-width: 1100px;
+        margin-top: 211px;
     &__logo {
       padding-top: 64px;
       padding-bottom: 123px;
@@ -62,7 +63,7 @@
     }
     &__wrapper {
       position: fixed;
-      z-index: 99;
+      z-index: -1;
       top: 0;
       left: 0;
       width: 100%;
@@ -89,8 +90,7 @@
       display: flex;
     }
     &__wrapper {
-      position: fixed;
-      z-index: 99;
+    
       top: 0;
       left: 0;
       width: 100%;
@@ -101,4 +101,8 @@
       padding: 0px 129px;
     }
   }
+}
+
+.test{
+  background-color: black;
 }

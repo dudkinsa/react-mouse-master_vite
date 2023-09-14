@@ -12,16 +12,18 @@ const MobileNav = ({ active, setActive }) => {
   const normalNav = 'mobile-nav__wrapper';
 
 
-  const logoLightMobile = <img src={logoLightSmall} alt="Logo" />
-  const logoDarkMobile = <img src={logoDarkSmall} alt="Logo" />
+  // const logoLightMobile = <img src={logoLightSmall} alt="Logo" />
+  // const logoDarkMobile = <img src={logoDarkSmall} alt="Logo" />
 
 
   return (
+    
+    
     <div className={active ? activeNav : normalNav}>
-      <div className='mobile-nav__logo'>
+      {/* <div className='mobile-nav__logo'>
           {active ? logoLightMobile : logoDarkMobile}
         
-      </div>
+      </div> */}
       <nav className="mobile-nav">
         <ul className="mobile-nav__list">
           <li className="mobile-nav__item">
@@ -75,6 +77,7 @@ const MobileNav = ({ active, setActive }) => {
         </ul>
       </nav>
     </div>
+    
   );
 };
 

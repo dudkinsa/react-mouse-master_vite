@@ -4,8 +4,6 @@ import { NavLink } from 'react-router-dom';
 import MobileBtn from '../MobileBtn/MobileBtn';
 
 import logoLight from '../../img/icons/logo-light.svg';
-import logoDark from '../../img/icons/logo-dark.svg';
-import logoDarkSmall from '../../img/icons/logo-dark-small.svg';
 
 
 import './header.scss';
@@ -20,15 +18,10 @@ const Header = () => {
         <div className="container">
           <div className="header__row">
             <div className="header__inner">
-            <div className="header__logo">
-              <picture>
-                <source media="(max-width: 1165px)" srcSet={logoDark} />
-                <source media="(max-width: 412px)" srcSet={logoDarkSmall} />
-
-                <img src={logoLight} alt="Logo" />
-              </picture>
-            </div>
-            <MobileBtn />
+              <div className="header__logo">
+                  <img src={logoLight} alt="Logo" />
+              </div>
+              <MobileBtn />
             </div>
             <nav className="header__nav">
               <ul className="nav-list">

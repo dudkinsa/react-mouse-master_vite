@@ -11,7 +11,7 @@ const MobileBtn = () => {
    
   return (
     <>
-  
+    
       <button className="mobile-nav-button" type="button">
         <span
           onClick={() => {
@@ -24,6 +24,9 @@ const MobileBtn = () => {
         ></span>
       </button>
       <MobileNav active={active} setActive={setActive} />
+
+   
+  
     </>
   )
 }
