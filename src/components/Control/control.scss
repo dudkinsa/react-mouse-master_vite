@@ -26,6 +26,11 @@ padding-top: 52px;
     &__picture{
         margin-bottom: 240px;
         position: relative;
+        background-color: var(--background-control);
+    }
+
+    &__picture-background{
+        background-color: var(--background-control);
     }
 
 
@@ -34,19 +39,11 @@ padding-top: 52px;
         padding: 35px;
         max-width: 750px;
         position: absolute;
-        bottom: 85px;
-        
+        bottom: 85px; 
     }
 }
-.container {
-}
-.title {
-}
-.apps {
-    
 
-    &__icons {
-    }
+.apps {
 
     &__icons-list {
         display: flex;
@@ -55,17 +52,13 @@ padding-top: 52px;
         margin-bottom: 25px;
     }
 
-    &__icon-item {
-        
-    }
 
     &__info-text {
         color: var(--white);
         text-align: center;
     }
 }
-.icon-img {
-}
+
 
 
 @media (max-width: 760px) {

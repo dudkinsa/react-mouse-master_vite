@@ -31,6 +31,7 @@
     /* Control */
     --background-control: var(--light-gray);
     --background-apps: var(--dark-gray);
+    
 }
 
 body {

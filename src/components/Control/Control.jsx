@@ -8,6 +8,7 @@ import word from '../../img/images/section-5/brend-icons/word-svg.svg';
 import powerpoint from '../../img/images/section-5/brend-icons/powerpoint-svg.svg';
 import exel from '../../img/images/section-5/brend-icons/exel-svg.svg';
 import video from '../../img/images/section-5/brend-icons/video-svg.svg';
+import SliderControl from '../Slider-control/SliderControl';
 
 const Control = () => {
   return (
@@ -24,11 +25,10 @@ const Control = () => {
               практически под любое используемое приложение.
             </p>
           </div>
-          <picture className="control__picture">
-            <source />
-              <img src={control} alt="" />
-          
-          </picture>
+          <div className="control__picture">
+              <img src={control} alt="Image control" />
+             <SliderControl />
+          </div>
           <div className="control__apps">
             <div className="apps">
               <div className="apps__icons">
