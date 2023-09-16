@@ -1,20 +1,42 @@
+.mobile-nav-button{
+  position: relative;
+  &__img{
+    display:  none;
+  }
+
+}
+
 @media (max-width: 1165px) {
   .mobile-nav-button {
+    padding-top: 64px;
+
+    &__img{
+    display:  block;
+    width: 240px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
 
     /* Reset for mobile */
-    cursor: pointer;
-    padding: 0;
-    border: none;
-    background: transparent;
-
+    // cursor: pointer;
+    // padding: 0;
+    // border: none;
+    // background: transparent;
+&__btn{
     /* Nav icon styles */
-    position: relative;
+    position: absolute;
+    right: 0;
     width: 61px;
     z-index: 100;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 30px;
+}
+
 
     &__icon {
       display: block;
@@ -70,6 +92,13 @@
 
 @media (max-width: 760px){
   .mobile-nav-button{
+    padding-top: 25px;
+    &__btn{
+      width: 30px;
+    }
+    &__img{
+      width: 130px;
+    }
     &__icon {
       width: 30px;
       height: 4px;

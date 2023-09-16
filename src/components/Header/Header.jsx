@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import MobileBtn from '../MobileBtn/MobileBtn';
 
-import logoLight from '../../img/icons/logo-light.svg';
+import logoLight from '../../img/icons/logo-dark.svg';
 
 
 import './header.scss';
@@ -16,13 +16,14 @@ const Header = () => {
     <header className="header">
       <div className="big-container">
         <div className="container">
+        <MobileBtn />
           <div className="header__row">
-            <div className="header__inner">
+           
               <div className="header__logo">
                   <img src={logoLight} alt="Logo" />
               </div>
               <MobileBtn />
-            </div>
+          
             <nav className="header__nav">
               <ul className="nav-list">
                 <li className="nav-list__item">

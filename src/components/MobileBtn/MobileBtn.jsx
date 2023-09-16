@@ -1,6 +1,8 @@
 import React from 'react';
 import MobileNav from '../MobileNav/MobileNav';
 import './mobileBtn.scss'
+import logoDark from '../../img/icons/logo-dark.svg';
+import logoLight from '../../img/icons/logo-light.svg';
 
 
 const MobileBtn = () => {
@@ -8,11 +10,13 @@ const MobileBtn = () => {
     
     const open = 'mobile-nav-button__icon';
     const close = 'mobile-nav-button__icon active';
+
    
   return (
-    <>
-    
-      <button className="mobile-nav-button" type="button">
+    <div className='mobile-nav-button'>
+   
+    <img className="mobile-nav-button__img" src={active ? logoDark : logoLight} alt="logo" />
+      <button className="mobile-nav-button__btn" type="button">
         <span
           onClick={() => {
               setActive(!active);
@@ -23,11 +27,12 @@ const MobileBtn = () => {
         }
         ></span>
       </button>
+
       <MobileNav active={active} setActive={setActive} />
 
    
   
-    </>
+    </div>
   )
 }
 

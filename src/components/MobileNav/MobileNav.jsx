@@ -1,10 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './mobileNav.scss';
-import logoLightSmall from '../../img/icons/logo-light-small.svg';
-import logoDarkSmall from '../../img/icons/logo-light-small.svg';
 
-const MobileNav = ({ active, setActive }) => {
+
+const MobileNav = ({ active}) => {
   const activeLink = 'mobile-nav__link mobile-nav__link--active';
   const normalLink = 'mobile-nav__link';
 
@@ -12,18 +11,12 @@ const MobileNav = ({ active, setActive }) => {
   const normalNav = 'mobile-nav__wrapper';
 
 
-  // const logoLightMobile = <img src={logoLightSmall} alt="Logo" />
-  // const logoDarkMobile = <img src={logoDarkSmall} alt="Logo" />
-
 
   return (
     
-    
+
     <div className={active ? activeNav : normalNav}>
-      {/* <div className='mobile-nav__logo'>
-          {active ? logoLightMobile : logoDarkMobile}
-        
-      </div> */}
+    
       <nav className="mobile-nav">
         <ul className="mobile-nav__list">
           <li className="mobile-nav__item">
