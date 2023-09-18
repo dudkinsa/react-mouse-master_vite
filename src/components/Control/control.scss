@@ -1,70 +1,84 @@
 .control {
-background-color: var(--background-control);
-padding-top: 52px;
-    &__content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  background-color: var(--background-control);
+  padding-top: 52px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    &__title {
-        
-        margin-bottom: 38px;
-    }
+  &__title {
+    margin-bottom: 38px;
+  }
 
-    &__info-text {
-        width: 800px;
-       text-align: center;
-       margin-bottom: 32px;
-       
-    }
+  &__info-text {
+    width: 800px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
 
-    &__picture img{
-        width: 100%;
-        
-    }
-    &__picture{
-        margin-bottom: 240px;
-        position: relative;
-        background-color: var(--background-control);
-    }
+  &__picture img {
+    width: 100%;
+  }
+  &__picture {
+    margin-bottom: 240px;
+    position: relative;
+    background-color: var(--background-control);
+  }
 
-    &__picture-background{
-        background-color: var(--background-control);
-    }
+  &__picture-background {
+    background-color: var(--background-control);
+  }
 
-
-    &__apps {
-        background-color: var(--background-apps);
-        padding: 35px;
-        max-width: 750px;
-        position: absolute;
-        bottom: 85px; 
-    }
+  &__apps {
+    background-color: var(--background-apps);
+    padding: 35px;
+    max-width: 750px;
+    position: absolute;
+    bottom: 85px;
+  }
+  &__slider {
+    display: none;
+  }
 }
 
 .apps {
+  &__icons-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+    margin-bottom: 25px;
+  }
 
-    &__icons-list {
-        display: flex;
-        justify-content: center;
-        column-gap: 35px;
-        margin-bottom: 25px;
-    }
-
-
-    &__info-text {
-        color: var(--white);
-        text-align: center;
-    }
+  &__info-text {
+    color: var(--white);
+    text-align: center;
+  }
 }
 
+@media (max-width: 1165px) {
+  .control {
+   padding: 70px 65px;
+    &__picture {
+      display: none;
+    }
+    &__apps {
+      position: unset;
+    
+    }
+    &__slider {
+      display: block;
+      width: 50%;
 
+      margin: 25px auto 70px;
+    }
+  }
+}
 
 @media (max-width: 760px) {
-    .control {
-        &__info-text{
-            width: 308px;
-        }
+  .control {
+    &__info-text {
+      width: 308px;
     }
+  }
 }

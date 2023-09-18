@@ -28,6 +28,7 @@ const Table = () => {
           </div>
         </div>
         <Slider />
+        
         <div className="table__content">
           <p className="table__description">
             Благодаря технологии Logitecch Darkfierd, MX Master 3 работает на

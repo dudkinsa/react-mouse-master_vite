@@ -25,21 +25,46 @@ const Control = () => {
               практически под любое используемое приложение.
             </p>
           </div>
+
           <div className="control__picture">
-              <img src={control} alt="Image control" />
-             <SliderControl />
+            <img src={control} alt="Image control" />
           </div>
+        </div>
+        <div className="control__slider">
+          
+            <SliderControl />
+          
+        </div>
+        <div className="control__content">
           <div className="control__apps">
             <div className="apps">
               <div className="apps__icons">
                 <ul className="apps__icons-list">
-                  <li className="apps__icon-item"><img className="icon-img" src={ps} alt="Icon Ps" /></li>
-                  <li className="apps__icon-item"><img className="icon-img" src={pr} alt="Icon Pr" /></li>
-                  <li className="apps__icon-item"><img className="icon-img" src={browsers} alt="Icon Browsers" /></li>
-                  <li className="apps__icon-item"><img className="icon-img" src={word} alt="Icon" /></li>
-                  <li className="apps__icon-item"><img className="icon-img" src={powerpoint} alt="Icon" /></li>
-                  <li className="apps__icon-item"><img className="icon-img" src={exel} alt="Icon" /></li>
-                  <li className="apps__icon-item"><img className="icon-img" src={video} alt="Icon" /></li>
+                  <li className="apps__icon-item">
+                    <img className="icon-img" src={ps} alt="Icon Ps" />
+                  </li>
+                  <li className="apps__icon-item">
+                    <img className="icon-img" src={pr} alt="Icon Pr" />
+                  </li>
+                  <li className="apps__icon-item">
+                    <img
+                      className="icon-img"
+                      src={browsers}
+                      alt="Icon Browsers"
+                    />
+                  </li>
+                  <li className="apps__icon-item">
+                    <img className="icon-img" src={word} alt="Icon" />
+                  </li>
+                  <li className="apps__icon-item">
+                    <img className="icon-img" src={powerpoint} alt="Icon" />
+                  </li>
+                  <li className="apps__icon-item">
+                    <img className="icon-img" src={exel} alt="Icon" />
+                  </li>
+                  <li className="apps__icon-item">
+                    <img className="icon-img" src={video} alt="Icon" />
+                  </li>
                 </ul>
               </div>
               <div className="apps__info-text">

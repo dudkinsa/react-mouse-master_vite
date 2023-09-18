@@ -23,6 +23,9 @@ import linoleumTablet from '../../img/images/section-3/linoleum-tablet.jpg';
 import clothTablet from '../../img/images/section-3/cloth-tablet.jpg';
 import marbleTablet from '../../img/images/section-3/marble-tablet.jpg';
 
+
+
+
 import clothTexture from '../../img/images/section-3/cloth-texture.png'
 import glassTexture from '../../img/images/section-3/glass-texture.png'
 import linoleumTexture from '../../img/images/section-3/linoleum-texture.png'
@@ -33,6 +36,8 @@ const Slider = () => {
   let slides = [
     {
       image: wood,
+      // image: '../../img/images/section-/wood.jpg',
+      // imageTablet: require('../../img/images/section-4/wood-tablet.jpg'),
       imageTablet :woodTablet,
       title: 'Wood', 
     },
@@ -49,11 +54,13 @@ const Slider = () => {
     {
       image: cloth,
       imageTablet: clothTablet,
+
       title: 'Cloth',
     },
     {
       image: marble,
       imageTablet: marbleTablet,
+ 
       title: 'Marble',
     },
   ];
