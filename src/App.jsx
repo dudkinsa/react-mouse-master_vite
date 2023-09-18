@@ -6,6 +6,7 @@ import Wirelessly from './components/Wirelessly/Wirelessly';
 import Table from './components/Table/Table';
 import Devices from './components/Devices/Devices';
 import Control from './components/Control/Control';
+import Ergonomics from './components/Ergonomics/Ergonomics';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Table />
         <Devices />
         <Control />
+        <Ergonomics />
       </Router>
     </div>
   );
