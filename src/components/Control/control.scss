@@ -45,7 +45,7 @@
 .apps {
   &__icons-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     column-gap: 35px;
     margin-bottom: 25px;
   }
@@ -58,27 +58,47 @@
 
 @media (max-width: 1165px) {
   .control {
-   padding: 70px 65px;
+    padding: 70px 65px;
     &__picture {
       display: none;
     }
     &__apps {
       position: unset;
-    
     }
     &__slider {
       display: block;
       width: 50%;
-
       margin: 25px auto 70px;
+    }
+    &__apps {
+      padding: 25px 30px;
     }
   }
 }
 
 @media (max-width: 760px) {
   .control {
-    &__info-text {
+    &__icons-list {
       width: 308px;
+      column-gap: 22px;
+    }
+    padding: 0;
+
+    &__slider {
+      width: 80%;
+    }
+    &__apps {
+      padding: 25px 30px;
+    }
+  }
+  .apps {
+    &__icons-list {
+      justify-content: center;
+      column-gap: 22px;
+    }
+    &__info-text {
+      width: 300px;
+      margin: 0 auto;
     }
   }
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import './control.scss';
 import control from '../../img/images/section-5/control_svg.svg';
-import ps from '../../img/images/section-5/brend-icons/ps-svg.svg';
-import pr from '../../img/images/section-5/brend-icons/pr-svg.svg';
-import browsers from '../../img/images/section-5/brend-icons/browsers-svg.svg';
-import word from '../../img/images/section-5/brend-icons/word-svg.svg';
-import powerpoint from '../../img/images/section-5/brend-icons/powerpoint-svg.svg';
-import exel from '../../img/images/section-5/brend-icons/exel-svg.svg';
-import video from '../../img/images/section-5/brend-icons/video-svg.svg';
+import ps from '../../img/images/section-5/brend-icons/ps.svg';
+import pr from '../../img/images/section-5/brend-icons/pr.svg';
+import browsers from '../../img/images/section-5/brend-icons/browsers.svg';
+import word from '../../img/images/section-5/brend-icons/word.svg';
+import powerpoint from '../../img/images/section-5/brend-icons/powerpoint.svg';
+import exel from '../../img/images/section-5/brend-icons/exel.svg';
+import video from '../../img/images/section-5/brend-icons/video.svg';
 import SliderControl from '../Slider-control/SliderControl';
 
 const Control = () => {

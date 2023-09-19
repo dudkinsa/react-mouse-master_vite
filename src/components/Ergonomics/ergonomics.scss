@@ -1,0 +1,70 @@
+.ergonomics {
+  &__grid {
+    margin: 100px 0;
+    display: grid;
+    grid-template-areas:
+      'pic1 txt1'
+      'txt2 pic2';
+    grid-template-rows: 545px 545px;
+    grid-template-columns: 640px 645px;
+  }
+
+  &__picture {
+  }
+
+  &__description {
+    width: 100%;
+  }
+//   .title{
+//     text-align: unset;
+//   }
+
+  &__title-1 {
+    width: 281px;
+    text-align: start !important;
+
+  }
+ 
+  &__title-2 {
+    width: 317px;
+    text-align: end !important;
+
+  }
+
+  &__info-text-1 {
+    text-align: left;
+  }
+  &__info-text-2 {
+    text-align: right;
+  }
+}
+.picture-1 {
+  grid-area: pic1;
+}
+.picture-2 {
+  grid-area: pic2;
+}
+.text-1 {
+  padding-left: 35px;
+  grid-area: txt1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.text-2 {
+  padding-right: 35px;
+  grid-area: txt2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.text {
+  width: 400px;
+}
+
+.test{
+    text-align: end;
+}
