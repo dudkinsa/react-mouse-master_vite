@@ -7,10 +7,6 @@
     align-items: center;
   }
 
-  &__title {
-    margin-bottom: 38px;
-  }
-
   &__info-text {
     width: 800px;
     text-align: center;
@@ -78,11 +74,20 @@
 
 @media (max-width: 760px) {
   .control {
+    padding: 0;
+
+    &__title {
+      margin: 70px 0 20px;
+      width: 232px;
+    }
+    &__info-text{
+      width: 308px;
+      margin-bottom: 35px;
+    }
     &__icons-list {
       width: 308px;
       column-gap: 22px;
     }
-    padding: 0;
 
     &__slider {
       width: 80%;

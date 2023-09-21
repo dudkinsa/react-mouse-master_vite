@@ -10,9 +10,7 @@ const Ergonomics = () => {
       <div className="container">
         <div className="ergonomics__grid">
 
-          <div className="ergonomics__picture picture-1">
-            <img src={image1} alt="image" />
-          </div>
+         
 
           <div className="ergonomics__description text-1">
             <h2 className="ergonomics__title-1 title">
@@ -26,15 +24,18 @@ const Ergonomics = () => {
                 которыми вы будете творить уверенно как никогда.
               </p>
             </div>
+          </div> 
+
+          <div className="ergonomics__picture picture-1">
+            <img src={image1} alt="image" />
           </div>
 
-          <div className="ergonomics__picture picture-2" >
-            <img src={image2} alt="image" />
-          </div>
+
+          
 
           <div className="ergonomics__description text-2">
 
-            <h2 className="ergonomics__title-2  title test">БЫСТРЕЕ, ЧЕМ КОГДА-ЛИБО</h2>
+            <h2 className="ergonomics__title-2  title">БЫСТРЕЕ, ЧЕМ КОГДА-ЛИБО</h2>
 
             <div className="ergonomics__info-text-2 text">
               <p>
@@ -45,6 +46,11 @@ const Ergonomics = () => {
             </div>
 
           </div>
+
+          <div className="ergonomics__picture picture-2" >
+            <img src={image2} alt="image" />
+          </div>
+          
         </div>
       </div>
     </section>
