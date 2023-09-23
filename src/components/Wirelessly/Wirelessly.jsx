@@ -15,14 +15,14 @@ const Wirelessly = () => {
             alt="Icon bluetooth"
           />
           <h2 className="wirelessly__title title">Без проводов</h2>
-          <p className="wirelessly__desc">
+          <p className="wirelessly__desc ">
             Беспроводная мышь MX Master 3 работает без проводов до нескольких
             месяцев. Вы закроете приоритетные задачи прежде, чем понадобится
             подзарядка.
           </p>
             <div className="wirelessly__text">
-              <div className="text-1">70</div>
-              <div className="text-2">дней</div>
+              <div className="text1">70</div>
+              <div className="text2">дней</div>
             </div>
             <div className="wirelessly__images">
               <img

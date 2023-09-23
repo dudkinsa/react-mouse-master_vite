@@ -77,8 +77,12 @@
 }
 @media (max-width: 760px) {
   .table {
+    &__title{
+      margin: 70px 0 20px;
+    }
     &__description {
-      width: 350px;
+      width: 308px;
+      margin-bottom: 40px;
     }
   }
   .info {
@@ -87,27 +91,7 @@
     &__right {
       width: 165px;
     }
+    margin-bottom: 28px;
   }
 }
 
-// @media (max-width: 374px) {
-//   .table{
-//     &__title{
-//       font-size: 20px;
-//     }
-//     &__description{
-//       width: 247px;
-//     }
-//   }
-//   .info {
-//     column-gap: 6px;
-//     &__title{
-//       font-size: 20px;
-//     }
-//     &__left,
-//     &__right {
-//       width: 166px;
-//     }
-//   }
-
-// }
