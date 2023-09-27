@@ -1,5 +1,5 @@
 import React from 'react';
-import lifestyleImage from '../../img/images/section-4/lifestyle.png';
+import lifestyleImage from '../../img/images/section-4/lifestyle-cut.png';
 import borderImg from '../../img/images/section-4/border.svg';
 import './devices.scss';
 
