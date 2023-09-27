@@ -7,6 +7,7 @@ const Devices = () => {
   return (
     <section className="devices">
       <div className="container">
+     
         <div className="devices__content">
           <h1 className="devices__title title">
             ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ
@@ -27,32 +28,27 @@ const Devices = () => {
             </p>
           </div>
           <div className="devices__instruction">
-            <div className="step">
+            <div className="step-1">
               1. Нажмите и удерживайте папку, чтобы переместить её
             </div>
             <div className="devices__border">
               <img src={borderImg} alt="Border" />
             </div>
-            <div className="step">
+            <div className="step-2">
               2. Перенесите папку на любой из соседних экранов
             </div>
             <div className="devices__border">
               <img src={borderImg} alt="Border" />
             </div>
-            <div className="step">3. Да, всё так просто!</div>
+            <div className="step-3">3. Да, всё так просто!</div>
           </div>
-        </div>
-        </div>
-      <div className="big-container">
-        
-
-        
-        <img
+          <img
           className="devices__img-big"
           src={lifestyleImage}
           alt="Lifestyle"
         />
-      </div>
+        </div>
+        </div>\
     </section>
   );
 };

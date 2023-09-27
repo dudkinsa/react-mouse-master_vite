@@ -32,6 +32,8 @@
     --background-control: var(--light-gray);
     --background-apps: var(--dark-gray);
     
+    /* Footer */
+    --text: var(--white);
 }
 
 body {

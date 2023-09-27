@@ -7,6 +7,7 @@ import Table from './components/Table/Table';
 import Devices from './components/Devices/Devices';
 import Control from './components/Control/Control';
 import Ergonomics from './components/Ergonomics/Ergonomics';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Devices />
         <Control />
         <Ergonomics />
+        <Footer />
       </Router>
     </div>
   );

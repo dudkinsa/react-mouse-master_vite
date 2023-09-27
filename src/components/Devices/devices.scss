@@ -1,32 +1,24 @@
-.big-container {
-  margin: 0 auto;
-  max-width: 1940px;
-  padding: 0 10px;
+
+.container{
   position: relative;
-}
-.container {
-  position: relative;
-  z-index: 1;
 }
 
 .devices {
   background-color: var(--background);
-
+  &__img-big{
+    display: none;
+  }
+ 
   &__content {
+  
+    background-image: url( '../../img/images/section-4/lifestyle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-  }
-
-  &__img-big {
-    max-width: 1920px;
-    position: relative;
-    right: 250px;
+    height: 1332px;
   }
   &__title {
     margin-top: 100px;
@@ -37,30 +29,35 @@
     text-align: center;
     margin-bottom: 69px;
   }
-  // &__text-2 {
-  //   margin-bottom: 69px;
-  // }
+
   &__instruction {
     display: flex;
-    height: 60px;
+    height: 20px;
     justify-content: space-between;
     width: 958px;
   }
 }
 
-.step {
+.step-1,.step-2,.step-3 {
   height: 55px;
   text-align: left;
 }
+.step-1, .step-2{
+  width: 315px;
+}
+.step-3{
+  width: 143px;
+}
 
 @media (max-width: 760px) {
-  .big-container {
-    position: unset;
-  }
+ 
   .devices {
     &__content {
-      position: unset;
+      // position: unset;
+    background-image: unset;
+
       margin-bottom: -40px;
+      height: unset;
     }
     &__title {
       margin: 70px 129px 20px;
@@ -80,22 +77,12 @@
       display: none;
     }
     &__img-big {
-      width: 100%;
-      position: unset;
-      margin-top: 10px;
+      display: block;
+
     }
   }
-  .step:not(:last-child) {
-    padding: 0 0 16px;
-  }
-  .step:nth-child(1) {
-    width: 200px;
-  }
+  .step-1,.step-2,.step-3 {
+padding: 0 0 16px;
+}
 
-  .step:nth-child(3) {
-    width: 224px;
-  }
-  .step:nth-child(5) {
-    width: 145px;
-  }
 }

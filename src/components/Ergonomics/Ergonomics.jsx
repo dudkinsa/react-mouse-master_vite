@@ -10,13 +10,11 @@ const Ergonomics = () => {
       <div className="container">
         <div className="ergonomics__grid">
 
-         
-
           <div className="ergonomics__description text-1">
             <h2 className="ergonomics__title-1 title">
                 КОМФОРТНО. ЭРГОНОМИЧНО. ИНТУИТИВНО
             </h2>
-            <div className="ergonomics__info-text-1 text">
+            <div className="ergonomics__info-text-1">
               <p>
                 Дизайн мыши MX Master 3 разработан так, чтобы с точностью
                 повторять форму вашей ладони. Но не менее важны колесико
@@ -37,7 +35,7 @@ const Ergonomics = () => {
 
             <h2 className="ergonomics__title-2  title">БЫСТРЕЕ, ЧЕМ КОГДА-ЛИБО</h2>
 
-            <div className="ergonomics__info-text-2 text">
+            <div className="ergonomics__info-text-2">
               <p>
                 Компьютерная мышь MX Master 3 предлагает ультимативный механизм
                 прокрутки со скоростью 1000 строк за 1 секунду. С точностью до
